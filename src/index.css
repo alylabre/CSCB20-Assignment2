@@ -1,0 +1,119 @@
+/* light blue: #E4F9FF */
+/* light gray: #E7E7E7 */
+/* dark gray: #D7D7D7 */
+
+@media screen and (max-width: 426px) {
+    html {
+        font-size: 10px;
+    }
+    .footer {
+        background-color: #E4F9FF;
+        height: 10vh;
+        padding: 8px 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .content {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+    html {
+        font-size: 12px;
+    }
+    .footer {
+        background-color: #E4F9FF;
+        height: 10vh;
+        padding: 8px 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .content {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    html {
+        font-size: 16px;
+    }
+    .content {
+        padding: 2rem 4rem;
+    }
+    .footer {
+        background-color: #E4F9FF;
+        height: 5vh;
+        padding: 5px 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+a {
+    color: #2F6690;
+}
+
+.header {
+    background-color: #E4F9FF;
+    height: 8vh;
+    padding: 5px 2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 8px #D7D7D7;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+nav {
+    border-right: 1px solid #D7D7D7;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 15px 2rem;
+}
+
+nav li:hover {
+    background-color: #E7E7E7;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #E7E7E7;
+}
