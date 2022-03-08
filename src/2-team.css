@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+  .content-team {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .content-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 5rem;
+  }
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.profile h2 {
+  margin-bottom: 5px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 8rem;
+  margin-right: 30px;
+}
