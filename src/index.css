@@ -140,3 +140,35 @@ nav a:hover {
 .content {
   min-height: 80vh;
 }
+.description {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #E7E7E7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.instructor {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #E7E7E7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.piazza {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #E7E7E7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
