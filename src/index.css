@@ -139,6 +139,7 @@ nav a:hover {
 
 .content {
   min-height: 80vh;
+  overflow-x: scroll;
 }
 
 .description {
