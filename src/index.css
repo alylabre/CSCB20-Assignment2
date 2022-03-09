@@ -17,6 +17,8 @@
     align-items: flex-start;
   }
   .content {
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
   }
   nav {
@@ -68,6 +70,8 @@
     align-items: flex-start;
   }
   .content {
+    display: flex;
+    flex-direction: column;
     padding: 2rem 4rem;
   }
 }
@@ -85,6 +89,9 @@
     justify-content: space-between;
   }
   .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template rows: 1fr 1fr 1fr;
     padding: 2rem 4rem;
   }
 }
@@ -147,10 +154,6 @@ nav a:hover {
   padding: 20px;
   border: 1px solid #E7E7E7;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
 .instructor {
@@ -158,10 +161,6 @@ nav a:hover {
   padding: 20px;
   border: 1px solid #E7E7E7;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
 .piazza {
@@ -169,8 +168,4 @@ nav a:hover {
   padding: 20px;
   border: 1px solid #E7E7E7;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
