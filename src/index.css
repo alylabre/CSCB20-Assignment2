@@ -144,7 +144,7 @@ nav a:hover {
 .description {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -155,7 +155,7 @@ nav a:hover {
 .instructor {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -166,10 +166,14 @@ nav a:hover {
 .piazza {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.piazza a {
+  font-weight: 400;
 }
