@@ -1,0 +1,80 @@
+/* This CSS file includes styling for 4-news,8-faq, 10-resources
+and 11-feedback */
+
+/*For the Subheading of each section under each page*/
+
+h4{
+margin:0;
+padding-bottom:0px;
+}
+
+/* Style for the subtext under each page of the 4 titles*/
+h3 {
+  font-style: italic;
+  color: rgb(141, 140, 140);
+  font-size: 80%;
+  padding-top: 0px;
+  margin-top: 2px;
+}
+
+/* Adding padding under the titles of the 4 pages */
+h2 {padding-bottom: 5px;}
+
+
+/* The page news and faq page that has mutiple sections in 
+their content were styled by below formatting*/
+
+div.subcontent {
+  display: block;
+  border: 1px solid #e7e7e7;
+  padding: 25px;
+  border-radius: 1rem;
+  margin: 0px;
+  width: 70%;
+   }
+
+/* Styling format for the resources page */
+div.resources {
+  display: block;
+  border: 1px solid #e7e7e7;
+  padding: 3px;
+  border-radius: 1rem;
+  margin-top: 5px;
+
+}
+
+/* Styling format for the paragraphs under frequently
+asked questions*/
+
+p.faq_subtext {
+
+  font-size: 9.5pt;
+  color: rgb(73, 73, 73);
+}
+
+/* Setting alignment for ordered and unordered lists*/
+
+ol { padding-left: 0;}
+ul { padding-left: 5%;
+}
+
+/* Additional styling for the feedback page*/
+
+textarea {
+  width: 100%;
+  height: 10rem;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.content button {
+  background-color: #67deff;
+  border: 1px solid #e7e7e7;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 40%;
+  
+}
+
