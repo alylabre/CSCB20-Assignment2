@@ -1,1 +1,0 @@
-﻿As a student user, the student must be able to see all announcements from course staff and the date they were posted when clicking on the ‘Announcements’ tab.
