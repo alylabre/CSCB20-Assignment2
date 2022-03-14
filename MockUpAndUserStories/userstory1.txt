@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see the course description (including prerequisites, exclusions, and the course syllabus), as well as the name and contact information of the course instructor.
