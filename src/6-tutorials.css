@@ -1,0 +1,27 @@
+@media screen and (max-width: 1023px) {
+  .sections {
+    display: flex;
+    flex-direction: column;
+  }
+  .tut2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .divider {
+    width: 100%;
+    height: 0.5px;
+    background-color: #e7e7e7;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sections {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+ul {
+  margin-top: 0;
+}
