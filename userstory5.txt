@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see all lecture topics and materials (slides, code handouts, etc.) when clicking on the ‘Lectures’ tab.
