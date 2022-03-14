@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see all tutorial topics and materials (slides, documents, code handouts, etc.) when clicking on the ‘Tutorials’ tab.
