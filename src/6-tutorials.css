@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1439px) {
   .sections {
     display: flex;
     flex-direction: column;
@@ -15,10 +15,21 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .sections {
     display: flex;
     flex-direction: row;
+  }
+  .tut-description {
+    display: flex;
+    flex-direction: row;
+  }
+  .tut-description h2 {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .tut-description p {
+    width: 50%;
   }
 }
 
