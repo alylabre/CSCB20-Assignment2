@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see the date and time of all scheduled lectures, office hours, and assessments, and the due dates for upcoming assignments in an embedded Google Calendar when clicking on the ‘Calendar’ tab.
