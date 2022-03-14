@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see additional resources, such as slides, nootes, or videos that supplement the existing course concepts and materials when clicking on the ‘Resources’ tab.

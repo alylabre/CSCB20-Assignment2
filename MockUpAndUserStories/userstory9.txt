@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see information regarding upcoming tests, including the date, time, and location when clicking on the ‘Tests’ tab. They should also be able to see any important notes regarding the test, as well as how to adequately prepare for it.

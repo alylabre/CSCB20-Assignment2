@@ -1,0 +1,1 @@
+﻿As a student user, the student must be able to see all assignments and their descriptions, including any required materials, its weight, and due dates when clicking on the ‘Assignments’ tab.
