@@ -9,26 +9,20 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
-/* The page news and faq page that has mutiple sections in 
-their content were styled by below formatting*/
-
-div.subcontent {
-  display: block;
-  border: 1px solid #e7e7e7;
-  padding: 25px;
-  border-radius: 1rem;
-  margin: 0px;
-  width: 70%;
-}
 
 /* Styling format for the paragraphs under frequently
 asked questions*/
+
+.question {
+  font-weight: 500;
+}
 
 p.faq_subtext {
   font-size: 9.5pt;
   color: rgb(73, 73, 73);
   margin: 2rem 20px;
 }
+
 
 /* Setting alignment for ordered and unordered lists*/
 
@@ -38,6 +32,8 @@ ol {
 ul {
   padding-left: 5%;
 }
+
+
 
 /* Additional styling for the feedback page*/
 form {
@@ -68,6 +64,3 @@ form button {
   font-weight: 500;
 }
 
-.question {
-  font-weight: 500;
-}
